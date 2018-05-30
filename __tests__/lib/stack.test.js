@@ -19,7 +19,6 @@ describe('Stack', () =>{
 
   it('push, count corresponds with data', () => {
     let myStack = loadStack();
-    console.log(myStack.data[3]);
     expect(myStack.data[3]).toEqual('coconut');
   });
 
@@ -28,4 +27,24 @@ describe('Stack', () =>{
     expect(myStack.data[1]).toEqual(3);
   }); 
 
+  it('pop, derements counter', () => {
+    let myStack = loadStack();
+    let lastItem = myStack.pop(); // eslint-disable-line
+    let newStack = myStack;  // eslint-disable-line
+    expect(myStack.count).toEqual(3);
+  });
+
+  it('pop, deletes last object', () => {
+    let myStack = loadStack();
+    let lastItem = myStack.pop(); 
+    let newStack = myStack;   // eslint-disable-line
+    expect(lastItem).toEqual(7);
+  });
+
+  it('pop, deletes last object', () => {
+    let myStack = loadStack();
+    let lastItem = myStack.pop(); // eslint-disable-line
+    let newStack = myStack; // eslint-disable-line
+    expect(myStack.data[3]).toEqual('coconut');
+  });
 });
