@@ -1,4 +1,4 @@
-#Stacks and Queues Data Structures
+# Stacks and Queues Data Structures
 
 
 [![Build Status](https://travis-ci.com/theidi267/10-stacks-and-queues.svg?branch=master)](https://travis-ci.com/theidi267/10-stacks-and-queues)
