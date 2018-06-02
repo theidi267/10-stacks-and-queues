@@ -1,7 +1,7 @@
 #Stacks and Queues Data Structures
 
 
-[![Build Status}(https://travis-ci.com/theidi267/10-stacks-and-queues.svg?branch=master)]
+[![Build Status](https://travis-ci.com/theidi267/10-stacks-and-queues.svg?branch=master)]
 
 #### Features 
   * contains a Stack constructor
